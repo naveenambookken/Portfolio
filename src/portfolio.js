@@ -200,6 +200,18 @@ const bigProjects = {
   subtitle: "These projects are done by learning Reactjs",
   projects: [
     {
+      image: require("./assets/images/olxclonesnapshot.png"),
+      projectName: "OLX Clone",
+      projectDesc: "OLX clone made with reactjs. using backend as Firebase",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://olx-clone-upbeat-joliot-b1f2c0.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/amazon.jpg"),
       projectName: "Amazon prime video Clone",
       projectDesc: "Amazon prime clone made with reactjs. using axios to fetch movie database from TMDB",
